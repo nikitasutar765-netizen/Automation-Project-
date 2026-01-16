@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BankingSuite">
+    <test name="LoginTests">
+        <classes>
+            <class name="com.banking.testcases.LoginTest"/>
+            <class name="com.banking.testcases.AccountApiTest"/>
+            <class name="com.banking.testcases.Verifyusernameapi"/>
+        </classes>
+    </test>
+</suite>
